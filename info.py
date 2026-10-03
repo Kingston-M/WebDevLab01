@@ -33,17 +33,17 @@ experience_data = {
     "Social Media & Content Creation Intern": (
         ["- Created graphics, reels, stories, and educational social content",
          "- Helped organize content calendars and social media ideas"],
-        "C:/Users/Admin/Downloads/WebDevLab01-2_completed/WebDevLab01/Images/OIP (1).webp"
+        "Images/OIP (1).webp"
     ),
     "YouTube Creator": (
         ["- Plan, record, edit, and package video content",
          "- Develop ideas and improve video presentation"],
-        "C:/Users/Admin/Downloads/WebDevLab01-2_completed/WebDevLab01/Images/download.webp"
+        "Images/download.webp"
     ),
     "Music Production": (
         ["- Create beats and write music",
          "- Experiment with production and sample-based workflows"],
-        "C:/Users/Admin/Downloads/WebDevLab01-2_completed/WebDevLab01/Images/OIP.webp"
+        "Images/OIP.webp"
 
     )
 }
@@ -82,20 +82,20 @@ leadership_data = {
             "- Take initiative on music, content, and technology projects",
             "- Combine technical and creative skills"
         ],
-        "C:/Users\Admin\Downloads\WebDevLab01-2_completed\WebDevLab01\Images\OIP (3).webp"
+        "Images\OIP (3).webp"
     ),
     "Youth Ambassador, Black Men in Tech": (
         [
             "I helped grow the club membership from 78 to 210 members in a span of 3 years.",
             "Organized a career panel with 6 alumni speakers and helped students get internships."
         ],
-        "C:/Users\Admin\Downloads\WebDevLab01-2_completed\WebDevLab01\Images\OIP (4).webp"
+        "Images\OIP (4).webp"
     ),
     "Coach, Madden Esports Team": (
         [
             "Led a group of 4 students to over 4 state championships for Madden."
         ],
-        "C:/Users\Admin\Downloads\WebDevLab01-2_completed\WebDevLab01\Images\OIP (2).webp"
+        "Images\OIP (2).webp"
     ),
 }
 
