@@ -5,7 +5,7 @@ st.set_page_config(page_title="Music Producer Quiz", page_icon="🎛️")
 st.title("🎛️ What Type of Music Producer Are You?")
 st.write("Answer five questions to discover the production style that best matches you.")
 
-st.image("C:/Users\Admin\Downloads\WebDevLab01-2_completed\WebDevLab01\Images\download (1).webp", caption="Start your producer journey")
+st.image("Images\download (1).webp", caption="Start your producer journey")
 
 melody = 0
 rhythm = 0
@@ -35,7 +35,7 @@ if "Hip-hop" in q2 or "Rock" in q2:
 if "Electronic" in q2:
     experimental += 1
 
-st.image("C:/Users\Admin\Downloads\WebDevLab01-2_completed\WebDevLab01\Images\OIP (5).webp", caption="Rhythm, movement, and groove")
+st.image("Images\OIP (5).webp", caption="Rhythm, movement, and groove")
 
 st.header("3. How important is experimentation to you?")
 q3 = st.slider("Rate experimentation from 1 to 10:", 1, 10, 5)  #NEW
@@ -54,7 +54,7 @@ if q4 >= 5:
 else:
     experimental += 1
 
-st.image("C:/Users\Admin\Downloads\WebDevLab01-2_completed\WebDevLab01\Images\OIP (6).webp", caption="Creative ideas and experimentation")
+st.image("Images\OIP (6).webp", caption="Creative ideas and experimentation")
 
 st.header("5. What would you create first?")
 q5 = st.selectbox(
@@ -93,3 +93,4 @@ if st.button("Show My Result"):
     st.write(f"Melody score: {melody}")
     st.write(f"Rhythm score: {rhythm}")
     st.write(f"Experimental score: {experimental}")
+
