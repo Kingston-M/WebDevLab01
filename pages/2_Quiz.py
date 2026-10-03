@@ -24,7 +24,7 @@ else:
     experimental += 2
 
 st.header("2. Which genres do you enjoy?")
-q2 = st.multiselect(
+q2 = st.multiselect(  #NEW
     "Choose any that apply:",
     ["Hip-hop", "R&B", "Pop", "Rock", "Electronic"]
 )  
@@ -38,6 +38,7 @@ if "Electronic" in q2:
 st.image("Images/OIP (5).webp", caption="Rhythm, movement, and groove")
 
 st.header("3. How important is experimentation to you?")
+
 q3 = st.slider("Rate experimentation from 1 to 10:", 1, 10, 5)  #NEW
 if q3 >= 8:
     experimental += 3
